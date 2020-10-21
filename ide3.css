@@ -1,0 +1,235 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+header{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: #b8b5af;
+	background-color: #474a50;
+}
+
+a, a:active{
+	color: #b8b5af;
+	text-decoration: none;
+}
+
+header ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+header ul li{
+	font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;	
+	background: fixed;
+	background-color: rgba(80, 80, 80, 0.6);
+	background-image: url(https://image.freepik.com/free-vector/gray-white-futuristic-technology-background-vector_53876-85332.jpg);
+
+}
+
+main{
+	text-align: center;
+}
+
+
+
+h3 {
+
+
+
+  font-family: "Paytone One";
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  word-spacing: 15px;
+}
+
+h3 span {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 80px;
+  line-height: 80px;
+  color: lightgrey;
+  text-shadow: 0 13.36px 8.896px grey,0 -2px 1px white;
+  letter-spacing: -4px;
+}
+
+
+
+.container1{
+
+	padding-right: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.composant1 img{
+	width: 400px;
+
+
+}
+
+.bouton{
+		padding: 5px;
+	  letter-spacing: 0px;
+	font-family: serif;
+	border:solid 2px #ba87f2 ;
+	color: #ba87f2;
+	background-color:#7e3cbc;
+	margin-top: 10px;
+	border-radius: 15px;
+	font-weight: bold;
+	cursor: none; 
+
+}
+
+
+
+
+
+.ul2{
+	border:3px solid grey;
+	box-shadow: 2px 2px 2px white;
+	border-radius: 20px;
+	background-color:rgba(120, 120, 120, 0.6);
+	line-height:60px;
+  	font-family: "Paytone One";
+ 	text-transform: uppercase;
+  	letter-spacing: -2px;
+}
+
+.ul2 span {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 80px;
+  line-height: 80px;
+  color: #7e3cbc;
+  text-shadow: 0 13.36px 8.896px grey,0 -2px 1px 	#ba87f2;
+  letter-spacing: -2px;
+}
+
+
+.ul2 li{
+
+	list-style-type: none;
+	padding: 5px;
+	  letter-spacing: 0px;
+	font-family: serif;
+	border:solid 2px #ba87f2 ;
+	color: #ba87f2;
+	background-color:#7e3cbc;
+	margin-top: 10px;
+	border-radius: 15px;
+	font-weight: bold;
+
+}
+
+.ul2 li:hover{
+		border:solid 2px #7e3cbc;
+		color: #7e3cbc;
+		background-color:#ba87f2;
+		margin-top: 10px;
+		border-radius: 15px;
+}
+
+
+.containerimage{
+	background: transparent;
+    position: absolute;
+    top: 52%;
+    left: 45%;
+    height: 400px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .5s;
+    &:hover .card-front
+        transform: rotateX(-180deg);
+    &:hover .card-back
+        transform: rotateX(0deg);
+}
+
+
+.containerimage:hover .card-front {
+  transform: rotateX(-180deg);
+}
+.containerimage:hover .card-back {
+  transform: rotateX(0deg);
+}
+
+.card-front {
+	border-radius: 30px;
+	filter: drop-shadow(16px 16px 20px #a9a9a9) invert(20%);
+ 	height: 100%;
+	width: 100%;
+	background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2019/04/visual-studio-2019-cxx-editor.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+}
+
+.card-back {
+	border-radius: 30px;
+	filter: drop-shadow(16px 16px 20px #a9a9a9) invert(20%);
+  	height: 100%;
+  	width: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2019/04/visual-studio-2019-cxx-editor.png);
+  	backface-visibility: hidden;
+  	transform: rotateX(180deg);
+  	transition: 0.5s;
+  	color: #ffffff;
+  	text-align: center;
+}
+
+.presentation{
+	display: flex;
+	justify-content: center;
+}
+
+
+h2{
+			text-shadow: 0 13.36px 8.896px grey,0 -2px 1px white;
+			padding-bottom: 50px;
+}
+p{	border: solid 2px ;
+	border-color: rgba(80, 80, 80, 1);
+	border-radius: 13px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #ba87f2;
+	margin-left: 500px;
+	line-height: 40px;
+	background-color: rgba(80, 80, 80, 0.8);
+	width: 500px;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	color: #b8b5af;
+
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}

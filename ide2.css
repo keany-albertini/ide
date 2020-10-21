@@ -1,0 +1,161 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+header{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: #b8b5af;
+	background-color: #474a50;
+}
+
+a, a:active{
+
+	color: #b8b5af;
+	text-decoration: none;
+}
+
+header ul{
+
+	display: flex;
+	justify-content: space-around;
+}
+
+header ul li{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+}
+
+.sec1{
+	display: flex;
+}
+
+body{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: rgba(80, 80, 80, 0.6);
+	background-color:#ff9700;
+}
+
+main{
+	font-family: 'Lato', sans-serif;
+}
+
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.titre {
+	font-size:200px;
+	font-weight: 900;
+	background-color: #474747;
+	color: #ff9700;
+	display: block;
+	padding: 20px;
+	padding-bottom: 37px;
+}
+
+.titre:nth-child(2) {
+	position: absolute;
+	background-color: #ff9700;
+	color: #474747;
+	clip-path: inset(-1% -1% 50% -1%); 
+}
+
+.section1{
+	text-align: center;
+}
+
+.lien, .lien:active{
+	color:  #ff9700;
+	text-decoration: none;
+	font-size: 35px;
+	border-radius: 30px;
+	border: 2px solid white;
+	padding: 10px;
+	background-color: #474747;
+	margin-bottom: 250px;
+	padding-top: 75px;
+}
+
+.lien:hover{
+	color: #474747;
+	background-color:   #ff9700;
+		margin-bottom: 300px;
+		margin-top: 0px;
+		padding-top: 30px;
+		border: 5px solid #474747;
+		box-shadow: 5px 3px 3px #595959;
+}
+
+.section1{
+	display: flex;
+	justify-content: space-around;
+}
+
+.h1{
+	text-align: center;
+	color: #474747;
+	font-size: 40px;
+}
+
+.ul{
+	list-style-type: square;
+	width: 400px;
+}
+
+.petititre{
+	text-align: center;
+	 color: #474747;
+	font-size: 35px;
+}
+
+.container2 {
+  	display: flex;
+	justify-content: space-evenly;
+ 	padding: 4% 2%;
+  	box-sizing: border-box;
+  	height: 100vh;
+}
+
+.box2 {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  line-height: 0;
+}
+
+.box2 > img {
+  width: 100%;
+  height: calc(100% - 10vh);
+   object-fit: cover; 
+  transition: 2s;
+
+}
+
+
+.box2:hover { flex: 1 1 100%; }
+
+.box2:hover > img {
+  height: 100%;
+  width: 100%;
+
+}
+ 
+
+footer{
+	justify-content: space-between;
+	display: flex;
+	color: #b8b5af;
+	background-color: #474a50;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
